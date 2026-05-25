@@ -1,18 +1,25 @@
 import express from "express";
+import cors from "cors";
+
 import { runPipeline } from "./pipeline/index.js";
 
 const app = express();
+
+app.use(cors());
 app.use(express.json());
 
 app.post("/generate", (req, res) => {
-  try {
-    const result = runPipeline(req.body.input);
+
+    const { input } = req.body;
+
+    const result = runPipeline(input);
+
     res.json(result);
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-  }
+
 });
 
 app.listen(3000, () => {
-  console.log("Server running on http://localhost:3000");
+
+    console.log("Server running on http://localhost:3000");
+
 });

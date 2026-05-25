@@ -1,33 +1,41 @@
 [
-  {
-    "input": "Build CRM with login and payments"
-  },
-  {
-    "input": "Create ecommerce app with cart and checkout"
-  },
-  {
-    "input": "Build LMS for students and teachers"
-  },
-  {
-    "input": "Build booking app with payments"
-  },
-  {
-    "input": "Create social media app"
-  },
+ {
+   "input":"Build CRM with login and payments"
+ },
 
-  {
-    "input": "Create app"
-  },
-  {
-    "input": "Make something useful"
-  },
-  {
-    "input": "Build CRM but no users and login required"
-  },
-  {
-    "input": "Need dashboard without authentication"
-  },
-  {
-    "input": "Build app with admin but no roles"
-  }
+ {
+   "input":"Build ecommerce app with dashboard"
+ },
+
+ {
+   "input":"Create app"
+ },
+
+ {
+   "input":"Something useful"
+ },
+
+ {
+   "input":"Build school portal with admin login"
+ },
+
+ {
+   "input":"Build chat app with payments"
+ },
+
+ {
+   "input":"Make app"
+ },
+
+ {
+   "input":"Build HR management system"
+ },
+
+ {
+   "input":"Build CRM with admin analytics"
+ },
+
+ {
+   "input":"hello"
+ }
 ]
