@@ -1,38 +1,67 @@
-# AI App Compiler
+# AI App Compiler 🚀
 
-Natural Language → Structured App Configuration Compiler
+AI App Compiler is a lightweight AI-inspired pipeline that converts natural language prompts into structured application blueprints. The system extracts intent, generates schemas, validates outputs, repairs inconsistencies, and handles vague prompts.
 
-## Pipeline
+---
 
-1. Intent Extraction
-2. System Design Layer
-3. Schema Generation
-4. Validation
-5. Repair Engine
+## Project Overview
 
-## Features
+This project simulates how an AI application compiler can transform user requirements into structured app designs.
 
-- UI schema generation
-- API schema generation
-- Database schema generation
-- Auth system generation
-- Deterministic JSON output
-- Multi-stage architecture
+Example:
 
-## Folder Structure
-
-backend/
-frontend/
-dataset/
-
-## Example Input
+Input:
 
 Build CRM with login and payments
 
-## Example Output
+Output:
 
-Generates:
-- UI pages
-- DB tables
-- API endpoints
-- Auth roles
+- App Type → CRM
+- Features → Login, Payments
+- Database Tables → Users, Payments
+- API Endpoints → /login, /payments
+- System Modules → Auth, Dashboard, Payments
+
+---
+
+## Features
+
+✅ Intent Extraction  
+✅ Multi-stage Pipeline Architecture  
+✅ Schema Generation  
+✅ Validation Engine  
+✅ Repair Engine  
+✅ Vague Prompt Detection  
+✅ Edge Case Handling  
+✅ Dataset-based Testing  
+✅ Frontend Demo Interface  
+✅ Structured JSON Output
+
+---
+
+## Project Structure
+
+```txt
+ai-app-compiler
+│
+├── backend
+│   ├── pipeline
+│   │   ├── index.js
+│   │   ├── intent.js
+│   │   ├── validator.js
+│   │   ├── repair.js
+│   │   └── schema.js
+│   │
+│   ├── server.js
+│   ├── utils.js
+│   └── testRunner.js
+│
+├── frontend
+│   └── index.html
+│
+├── dataset
+│   └── testcases.json
+│
+├── package.json
+├── .gitignore
+└── README.md
