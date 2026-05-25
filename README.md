@@ -65,3 +65,130 @@ ai-app-compiler
 ├── package.json
 ├── .gitignore
 └── README.md
+
+
+Pipeline Flow :-
+
+User Prompt
+
+↓
+
+Intent Extraction
+
+↓
+
+Schema Generation
+
+↓
+
+Validation
+
+↓
+
+Repair
+
+↓
+
+Structured JSON Output
+
+Example API Request
+
+POST:
+
+{
+ "input":"Build CRM with login and payments"
+}
+
+Response:
+
+{
+ "input":"Build CRM with login and payments",
+
+ "intent":{
+   "app_type":"crm",
+   "features":[
+      "login",
+      "payments"
+   ]
+ },
+
+ "validation":{
+    "valid":true
+ }
+}
+Edge Cases Handled
+
+Normal Prompts:
+
+Build CRM with login and payments
+Build ecommerce app with dashboard
+Build school portal with admin login
+
+Vague / Incomplete Prompts:
+
+Create app
+Something useful
+Make app
+hello
+
+System Response:
+
+{
+ "unclear": true,
+ "message":"Prompt too vague",
+ "suggestion":"Please specify app type and features"
+}
+Test Dataset
+
+Dataset contains multiple prompt types:
+
+Normal prompts
+Incomplete prompts
+Edge cases
+Vague prompts
+
+Run:
+
+cd backend
+node testRunner.js
+Run Backend
+cd backend
+node server.js
+
+Server:
+
+http://localhost:3000
+Run Frontend
+
+Open:
+
+frontend/index.html
+
+Then enter prompts and click Generate.
+
+Technologies Used
+
+Node.js
+Express.js
+JavaScript
+HTML
+CSS
+Future Improvements
+Dynamic schema generation
+LLM integration
+Authentication logic
+Database generation
+Deployment support
+Advanced prompt understanding
+
+Author
+Harshpreet Kaur
+B.Tech CSE
+M.M. Engineering College
+
+ save → terminal:
+
+```bash
+git add .
+git commit -m "Updated README and final project"
+git push
