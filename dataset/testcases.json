@@ -1,0 +1,33 @@
+[
+  {
+    "input": "Build CRM with login and payments"
+  },
+  {
+    "input": "Create ecommerce app with cart and checkout"
+  },
+  {
+    "input": "Build LMS for students and teachers"
+  },
+  {
+    "input": "Build booking app with payments"
+  },
+  {
+    "input": "Create social media app"
+  },
+
+  {
+    "input": "Create app"
+  },
+  {
+    "input": "Make something useful"
+  },
+  {
+    "input": "Build CRM but no users and login required"
+  },
+  {
+    "input": "Need dashboard without authentication"
+  },
+  {
+    "input": "Build app with admin but no roles"
+  }
+]
